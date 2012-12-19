@@ -29,7 +29,7 @@ A couple of notes:
 * No single-signon, I like to keep accounts separate.
 * Forum posts are not listed as comments, there is a (configurable) link to the discussion thread instead. I actually had a "display posts as comments" feature in at first (still have the code somewhere if you want it), but then took it out for a couple of reasons. It was messy to deal with and in the end I felt that comments are less community oriented than a forum, so I'd rather point my users to the forum saying "Hey look, there is a real community, not just a blog post with comments, join in, have fun!".
 * Cross-Posts are to be updated from the edit page of the original post, directly updating a cross-post using your forum will result in the changes being lost the next time you update the original post.
-* Deleting an original post will leave the cross-post untouched (you can manually link an original post to it from the MyBBXP settings page).
+* Deleting an original post will leave the cross-post untouched (you can manually link it to a different original post from the MyBBXP settings page).
 * Deleting a cross-post using your forum will cause the original post to behave as if it were never cross-posted (it can be cross-posted anew).
 
 == Installation ==
