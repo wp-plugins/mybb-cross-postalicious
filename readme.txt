@@ -1,9 +1,8 @@
 === Plugin Name ===
 Contributors: mechter
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FJXKWV2PJ5PGG
 Tags: mybb, forum, mybbxp, cross-posting, cross, comments
 Requires at least: 3.5
-Tested up to: 3.5
+Tested up to: 4.1.1
 Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -11,6 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Automatically cross-post your Wordpress posts to MyBB, also contains a 'recent forum topics' widget.
 
 == Description ==
+
+**Important:** I am not personally updating/fixing/supporting this plugin any more, please see [this thread](https://wordpress.org/support/topic/a-note-about-updates-fixes-support-etc) for details.
 
 I needed a plugin to:
 
@@ -24,7 +25,7 @@ So I scratched my itch and now share the result.
 
 A couple of notes:
 
-* Tested with Wordpress 3.5 and MyBB 1.6
+* Tested with Wordpress 3.5, 4.1.1 and MyBB 1.6
 * Although at the time of writing MyBB seems like the best FOSS forum software no money can buy, the MyBB codebase, to me, seems like an unholy mess and rather dated. I didn't like working with it, I don't trust it and I don't want any of it to touch my Wordpress installation. I don't want the two to share databases and I don't want to interface directly with MyBB code. Therefore, I do a couple of simple database queries and when things get more complex (e.g. posting a thread), I have Wordpress connect to MyBB via HTTP and post just like a regular user. As a matter of fact, your MyBB installation could run on a different server entirely as long as you have access to the MyBB database.
 * No single-signon, I like to keep accounts separate.
 * Forum posts are not listed as comments, there is a (configurable) link to the discussion thread instead. I actually had a "display posts as comments" feature in at first (still have the code somewhere if you want it), but then took it out for a couple of reasons. It was messy to deal with and in the end I felt that comments are less community oriented than a forum, so I'd rather point my users to the forum saying "Hey look, there is a real community, not just a blog post with comments, join in, have fun!".
@@ -56,6 +57,11 @@ It's licensed GPLv3+, go nuts.
 No screenshots, just try and see for yourself. In case you don't like it, the uninstall is 100% clean (obviously, your posts and cross-posts will not be deleted).
 
 == Changelog ==
+
+= 1.1 =
+
+fixed widget links
+widget no longer displays draft forum posts, thanks kab012345
 
 = 1.0 =
 

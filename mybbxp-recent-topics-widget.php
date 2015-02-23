@@ -53,7 +53,8 @@ class MyBBXP_Recent_Topics_Widget extends WP_Widget {
 		
 		$sql = 'select tid, subject from '
 				. $options['db_prefix'] . 'threads' // sanitized in MyBBXPSettings
-				. ' where fid in( '
+				. ' where visible=1'
+				. ' and fid in( '
 				. $instance['fids'] // sanitized below
 				. ') order by '
 				. ($instance['define_recent'] == 'created' ? 'dateline' : 'lastpost') // sanitized below and inline
@@ -75,7 +76,7 @@ class MyBBXP_Recent_Topics_Widget extends WP_Widget {
 			
 		echo '<ul>';
 		foreach ($threads as $thread) {
-			echo '<li><a href="' . $options['path'] . '/showthread.php?tid=' . $thread->tid . '">' . $thread->subject . '</a></li>';
+			echo '<li><a href="' . $options['url'] . '/showthread.php?tid=' . $thread->tid . '">' . $thread->subject . '</a></li>';
 		}
 		echo '</ul>';
 		
