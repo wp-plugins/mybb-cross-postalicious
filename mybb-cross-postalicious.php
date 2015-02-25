@@ -19,9 +19,9 @@
  
 /*
 Plugin Name: MyBB Cross-Postalicious
-Plugin URI: http://TODO
+Plugin URI: https://wordpress.org/plugins/mybb-cross-postalicious/
 Description: Allows cross-posting between wordpress and MyBB.
-Version: 1.0
+Version: 1.1
 Author: Markus Echterhoff
 Author URI: http://www.markusechterhoff.com
 License: GPLv3+
