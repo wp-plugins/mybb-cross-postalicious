@@ -1,6 +1,6 @@
-=== Plugin Name ===
+=== MyBB Cross-Postalicious ===
 Contributors: mechter
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FJXKWV2PJ5PGG
+Donate link: http://www.markusechterhoff.com/donation/
 Tags: mybb, forum, mybbxp, cross-posting, cross, comments
 Requires at least: 3.5
 Tested up to: 3.5
